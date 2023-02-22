@@ -1,8 +1,12 @@
 
 // type calculator = (x: number, y: number) => number;
+/*
 interface CalculatorV2 {
     (x: number, y: number): number;
 }
+/*/
+type CalculatorV2 = (x: number, y: number) => number;
+//*/
 
 let calAddNumber: CalculatorV2 = (x: number, y: number) => x + y;
 let calSubNumber: CalculatorV2 = (x: number, y: number) => x - y;

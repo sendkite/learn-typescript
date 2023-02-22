@@ -1,4 +1,5 @@
 "use strict";
+//*/
 let calAddNumber = (x, y) => x + y;
 let calSubNumber = (x, y) => x - y;
 let calMultifyNumber = (x, y) => x * y;
